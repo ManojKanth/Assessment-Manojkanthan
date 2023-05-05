@@ -3,7 +3,7 @@ import {View, StyleSheet, SafeAreaView} from 'react-native';
 import SearchBar from '../components/SearchBar';
 import {getUser} from '../services/GithubServices';
 import {User} from '../types/commonTypes';
-import UserGithubProfile from '../components/UserGithubProfile';
+import GithubUserProfileComponent from '../components/GithubUserProfileComponent';
 import {HomeProps} from '../types/navigationTypes';
 import EmptyComponent from '../components/EmptyComponent';
 import {Colors} from '../config/Colors';
@@ -47,7 +47,7 @@ const HomeScreen: React.FC<HomeProps> = ({navigation}) => {
 
       {/* User profile or empty component */}
       {user ? (
-        <UserGithubProfile
+        <GithubUserProfileComponent
           userData={user}
           onPressFollowers={onPressFollowers}
           onPressFollowings={onPressFollowings}

@@ -8,7 +8,7 @@ type Props = {
   onPressFollowings: (username: string) => void;
 };
 
-const GithubProfileDisplay = ({
+const GithubUserProfileComponent = ({
   userData,
   onPressFollowers,
   onPressFollowings,
@@ -112,4 +112,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default GithubProfileDisplay;
+export default GithubUserProfileComponent;
