@@ -58,5 +58,5 @@ Handle cases where certain data is not available
 I am familiar with both JavaScript and TypeScript, as well as class and functional components. However, for this project, I chose to use TypeScript due to its superior type safety and error-catching capabilities during development. And the project is compatible with both iOS and android. The assessment task is completed within the time frame of 24 hours. The implemented features are functional and meet the requirement.
 
 
-
+Candidate: Manojkanthan Rajendran
 
