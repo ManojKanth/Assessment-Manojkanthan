@@ -1,4 +1,4 @@
-# SpeerAssessment Task Readme
+# Assessment Task Readme
 
 ## Installation
 
