@@ -1,14 +1,12 @@
-import commonReducer from './reducers/commonReducer';
-import thunk from 'redux-thunk';
+import commonSlice from './reducers/commonSlice';
 import {configureStore} from '@reduxjs/toolkit';
 
 const rootReducer = {
-  common: commonReducer,
+  common: commonSlice,
 };
 
 const store = configureStore({
   reducer: rootReducer,
-  middleware: [thunk],
 });
 
 export default store;
