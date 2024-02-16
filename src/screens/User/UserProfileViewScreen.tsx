@@ -1,8 +1,8 @@
 import React from 'react';
 import {View, Text, StyleSheet, Image} from 'react-native';
-import UserDetailSection from '../components/UserDetailsSection';
-import {UserProfileScreenProps} from '../types/navigationTypes';
-import {Colors} from '../config/Colors';
+import UserDetailSection from '../../components/ProfileComponent/UserDetailsSection';
+import {UserProfileScreenProps} from '../../types/navigationTypes';
+import {Colors} from '../../config/Colors';
 
 const UserProfileViewScreen: React.FC<UserProfileScreenProps> = ({route}) => {
   const {userData = null} = route.params || {};

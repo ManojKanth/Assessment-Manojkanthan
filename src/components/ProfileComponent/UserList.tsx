@@ -1,7 +1,7 @@
 import React from 'react';
 import {Image, View, TouchableOpacity, Text, StyleSheet} from 'react-native';
-import {User} from '../types/commonTypes';
-import {Colors} from '../config/Colors';
+import {User} from '../../types/commonTypes';
+import {Colors} from '../../config/Colors';
 
 type UserListProps = {
   user: User;

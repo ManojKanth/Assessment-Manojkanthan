@@ -1,10 +1,10 @@
 import * as React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
-import HomeScreen from './screens/HomeScreen';
-import UserProfileViewScreen from './screens/UserProfileViewScreen';
-import FollowListScreen from './screens/FollowListScreen';
-import CustomButton from './components/Button';
+import HomeScreen from './screens/Home/HomeScreen';
+import UserProfileViewScreen from './screens/User/UserProfileViewScreen';
+import FollowListScreen from './screens/FollowScreen/FollowListScreen';
+import CustomButton from './components/BaseComponent/Button';
 import {Colors} from './config/Colors';
 import {User} from './types/commonTypes';
 

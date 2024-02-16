@@ -1,11 +1,15 @@
 import React, {useEffect, useState} from 'react';
 import {FlatList, RefreshControl, StyleSheet, View} from 'react-native';
-import {User} from '../types/commonTypes';
-import {getFollowers, getFollowing, getUser} from '../services/GithubServices';
-import {FollowListProps} from '../types/navigationTypes';
-import EmptyComponent from '../components/EmptyComponent';
-import UserList from '../components/UserList';
-import {Colors} from '../config/Colors';
+import {User} from '../../types/commonTypes';
+import {
+  getFollowers,
+  getFollowing,
+  getUser,
+} from '../../services/GithubServices';
+import {FollowListProps} from '../../types/navigationTypes';
+import EmptyComponent from '../../components/EmptyComponent';
+import UserList from '../../components/ProfileComponent/UserList';
+import {Colors} from '../../config/Colors';
 
 interface Props extends FollowListProps {}
 

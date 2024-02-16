@@ -1,12 +1,12 @@
 import React, {useState} from 'react';
 import {View, StyleSheet, SafeAreaView} from 'react-native';
-import SearchBar from '../components/SearchBar';
-import {getUser} from '../services/GithubServices';
-import {User} from '../types/commonTypes';
-import GithubUserProfileComponent from '../components/GithubUserProfileComponent';
-import {HomeProps} from '../types/navigationTypes';
-import EmptyComponent from '../components/EmptyComponent';
-import {Colors} from '../config/Colors';
+import SearchBar from '../../components/SearchBar';
+import {getUser} from '../../services/GithubServices';
+import {User} from '../../types/commonTypes';
+import GithubUserProfileComponent from '../../components/ProfileComponent/GithubUserProfileComponent';
+import {HomeProps} from '../../types/navigationTypes';
+import EmptyComponent from '../../components/EmptyComponent';
+import {Colors} from '../../config/Colors';
 
 const HomeScreen: React.FC<HomeProps> = ({navigation}) => {
   const [user, setUser] = useState<User | null>(null);

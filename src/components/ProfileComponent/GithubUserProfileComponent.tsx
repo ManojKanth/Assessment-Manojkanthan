@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Text, Image, StyleSheet, TouchableOpacity} from 'react-native';
-import {User} from '../types/commonTypes';
-import {Colors} from '../config/Colors';
+import {User} from '../../types/commonTypes';
+import {Colors} from '../../config/Colors';
 type Props = {
   userData: User;
   onPressFollowers: (username: string) => void;
